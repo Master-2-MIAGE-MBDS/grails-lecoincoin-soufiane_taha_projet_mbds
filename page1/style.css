@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Parent{
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4,1fr);
+
+}
+.Parent > div {
+    width:100%;
+
+}
+.signinmsg{
+    background-color: rgb(26, 144, 234);
+    font-size: 25pt;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left:20px ;
+    margin-bottom: 20px;
+    height: 70px;
+    
+}
+.profil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(207, 202, 202);
+    margin-top: -190px;
+    height: 200px;
+
+   
+}
+.profil img {
+ 
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+ 
+}
+.profil h3{
+    font-size: 22pt;
+}
+
+.form-inp{
+    margin-top: -105px;
+    background-color: rgb(248, 245, 245);
+}
+.form-inp form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px;
+   gap: 15px;
+}
+.form-inp form input{
+    padding: 10px;
+    width: 300px;
+    margin-top: -10px;
+    background-color: aliceblue;
+}
+.form-inp form button{
+    margin-top: 100px;
+    width: 300px;
+    padding: 2px;
+    background-color: rgb(26, 144, 234);
+    font-size: 17pt;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    margin-top: -200px;
+    height: 50px;
+    background-color: rgb(26, 144, 234);
+    font-size: 18pt;
+    padding-left: 10px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
